@@ -1,0 +1,82 @@
+#app-intro--visual-container {
+  position: relative;
+  width: 60%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@keyframes tokens-floating {
+  0% {
+    transform: translateY(0%);
+  }
+  50% {
+    transform: translateY(3%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+@keyframes other-balls-floating {
+  0% {
+    transform: translateY(0%);
+  }
+  50% {
+    transform: translateY(-5%);
+  }
+  100% {
+    transform: translateY(0%);
+  }
+}
+@keyframes main-ball-expanding {
+  0% {
+    transform: translateY(0%) scale(1);
+  }
+  50% {
+    transform: translateY(-15%) scale(1.1);
+  }
+  100% {
+    transform: translateY(0%) scale(1);
+  }
+}
+
+#platforms {
+  position: absolute;
+  width: 80%;
+  height: auto;
+}
+#floating-tokens {
+  position: absolute;
+  width: 66%;
+  height: auto;
+  top: 7%;
+  left: 19.5%;
+  animation: tokens-floating 5s;
+  animation-iteration-count: infinite;
+}
+#floating-other-balls {
+  position: absolute;
+  width: 43%;
+  height: auto;
+  left: 32%;
+  top: 10.5%;
+  animation: other-balls-floating 10s;
+  animation-iteration-count: infinite;
+}
+#main-glow {
+  position: absolute;
+  height: auto;
+  width: 15%;
+  left: 45.65%;
+  top: 18.5%;
+}
+#floating-main-ball {
+  position: absolute;
+  width: 12%;
+  height: auto;
+  left: 47%;
+  top: 16%;
+  animation: main-ball-expanding 5s;
+  animation-iteration-count: infinite;
+}

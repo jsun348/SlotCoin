@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="290"
+   height="159"
+   id="svg4141"
+   version="1.1"
+   inkscape:version="0.91+devel+osxmenu r12922"
+   sodipodi:docname="full-color-no-logo-coin.svg"
+   viewBox="0 0 290 159"
+   style="fill:none">
+  <metadata
+     id="metadata4221">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1353"
+     inkscape:window-height="651"
+     id="namedview4219"
+     inkscape:document-units="px"
+     showgrid="false"
+     inkscape:zoom="2.1097791"
+     inkscape:cx="145"
+     inkscape:cy="79.5"
+     inkscape:window-x="0"
+     inkscape:window-y="23"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg4141" />
+  <path
+     d="m 145,158.605 c 61.856,0 112,-18.957 112,-42.341 l 0,-27.922 -224,0 0,27.922 c 0,23.384 50.144,42.341 112,42.341 z"
+     id="path4143"
+     inkscape:connector-curvature="0"
+     style="fill:url(#paint0_radial-750664)" />
+  <g
+     id="g4145"
+     style="filter:url(#filter0_ddi-060959)">
+    <ellipse
+       cx="145"
+       cy="88.341003"
+       rx="112"
+       ry="42.341999"
+       id="ellipse4147"
+       style="fill:url(#paint1_linear-508344)" />
+  </g>
+  <path
+     d="m 238.244,88.34 c 0,4.516 -2.426,8.937 -7.072,13.076 -4.645,4.138 -11.423,7.91 -19.884,11.099 -16.916,6.374 -40.352,10.337 -66.288,10.337 -25.936,0 -49.372,-3.963 -66.288,-10.337 -8.462,-3.189 -15.24,-6.961 -19.885,-11.099 -4.646,-4.139 -7.071,-8.56 -7.071,-13.076 0,-4.517 2.425,-8.938 7.071,-13.077 C 63.472,71.125 70.25,67.353 78.712,64.164 95.628,57.79 119.064,53.828 145,53.828 c 25.936,0 49.372,3.963 66.288,10.338 8.461,3.188 15.239,6.96 19.884,11.098 4.646,4.14 7.072,8.56 7.072,13.077 z"
+     id="path4149"
+     inkscape:connector-curvature="0"
+     style="opacity:0.5;stroke:url(#paint2_linear-662290);stroke-width:2" />
+  <defs
+     id="defs4161">
+    <linearGradient
+       id="paint1_linear-508344"
+       x1="145"
+       y1="46"
+       x2="145"
+       y2="130.683"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#FD91FF"
+         id="stop4164" />
+      <stop
+         offset=".344"
+         stop-color="#A0A8FF"
+         id="stop4166" />
+      <stop
+         offset=".947"
+         stop-color="#C9F2FF"
+         id="stop4168" />
+    </linearGradient>
+    <linearGradient
+       id="paint2_linear-662290"
+       x1="50.756001"
+       y1="52.827"
+       x2="245.22501"
+       y2="98.239998"
+       gradientUnits="userSpaceOnUse">
+      <stop
+         stop-color="#fff"
+         id="stop4171" />
+      <stop
+         offset="1"
+         stop-color="#fff"
+         stop-opacity="0"
+         id="stop4173" />
+    </linearGradient>
+    <radialGradient
+       id="paint0_radial-750664"
+       cx="0"
+       cy="0"
+       r="1"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(25.92754,72.17656,-120.52735,43.2963,149.853,121.466)">
+      <stop
+         stop-color="#68E9F1"
+         id="stop4176" />
+      <stop
+         offset=".604"
+         stop-color="#86AFFF"
+         id="stop4178" />
+      <stop
+         offset="1"
+         stop-color="#9492FF"
+         id="stop4180" />
+    </radialGradient>
+    <filter
+       id="filter0_ddi-060959"
+       x="0"
+       y="0"
+       width="290"
+       height="150.683"
+       filterUnits="userSpaceOnUse"
+       style="color-interpolation-filters:sRGB">
+      <feFlood
+         flood-opacity="0"
+         result="BackgroundImageFix"
+         id="feFlood4183" />
+      <feColorMatrix
+         in="SourceAlpha"
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+         id="feColorMatrix4185" />
+      <feOffset
+         dy="-13"
+         id="feOffset4187" />
+      <feGaussianBlur
+         stdDeviation="16.5"
+         id="feGaussianBlur4189" />
+      <feColorMatrix
+         values="0 0 0 0 0.404167 0 0 0 0 0.741154 0 0 0 0 1 0 0 0 0.4 0"
+         id="feColorMatrix4191" />
+      <feBlend
+         in2="BackgroundImageFix"
+         result="effect1_dropShadow"
+         id="feBlend4193"
+         mode="normal" />
+      <feColorMatrix
+         in="SourceAlpha"
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+         id="feColorMatrix4195" />
+      <feOffset
+         dy="1.858"
+         id="feOffset4197" />
+      <feGaussianBlur
+         stdDeviation="1.858"
+         id="feGaussianBlur4199" />
+      <feColorMatrix
+         values="0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.25 0"
+         id="feColorMatrix4201" />
+      <feBlend
+         in2="effect1_dropShadow"
+         result="effect2_dropShadow"
+         id="feBlend4203"
+         mode="normal" />
+      <feBlend
+         in="SourceGraphic"
+         in2="effect2_dropShadow"
+         result="shape"
+         id="feBlend4205"
+         mode="normal" />
+      <feColorMatrix
+         in="SourceAlpha"
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+         result="hardAlpha"
+         id="feColorMatrix4207" />
+      <feOffset
+         dy="-1.858"
+         id="feOffset4209" />
+      <feGaussianBlur
+         stdDeviation=".674"
+         id="feGaussianBlur4211" />
+      <feComposite
+         in2="hardAlpha"
+         operator="arithmetic"
+         k2="-1"
+         k3="1"
+         id="feComposite4213"
+         k1="0"
+         k4="0" />
+      <feColorMatrix
+         values="0 0 0 0 0.925 0 0 0 0 0.936947 0 0 0 0 1 0 0 0 0.12 0"
+         id="feColorMatrix4215" />
+      <feBlend
+         in2="shape"
+         result="effect3_innerShadow"
+         id="feBlend4217"
+         mode="normal" />
+    </filter>
+  </defs>
+</svg>
