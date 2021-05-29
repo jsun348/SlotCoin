@@ -25,23 +25,23 @@
 }
 #flip-coin-1 {
   bottom: 0;
-  left: 3%;
+  left: 6%;
 }
 #flip-coin-2 {
-  bottom: 30%;
-  left: 18%;
+  bottom: 40%;
+  left: 20%;
 }
 #flip-coin-3 {
   bottom: 55%;
   left: 46%;
 }
 #flip-coin-4 {
-  bottom: 30%;
-  right: 20%;
+  bottom: 40%;
+  right: 22%;
 }
 #flip-coin-5 {
   bottom: 0;
-  right: 3%;
+  right: 6%;
 }
 
 #swap-token--text {

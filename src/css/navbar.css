@@ -1,39 +1,39 @@
 :root {
   --header-size: 60px;
+  --hamburger-menu-width: 18px;
+  --hamburger-menu-padding: 20px;
 }
 
 header {
-  /* position: relative; */
   position: sticky;
   top: 0;
   height: var(--header-size);
-  /* background: #234647; */
-  /* background: #1f232b; */
   background: transparent;
-  /* box-shadow: 0px 8px 10px 0 rgba(0,0,0,.4); */
-  z-index: 10;
+  z-index: 100;
   color: #ddd;
 }
 header ul {
   list-style: none;
   overflow: hidden;
-  background-color: #4b969c;
+  background-color: transparent;
   opacity: 0.97;
 }
 header li a {
   display: block;
   padding: 10px 20px;
   text-decoration: none;
+  color: white;
 }
 header li a:hover,
 header .menu-btn:hover {
-  background-color: #326569;
+  color: rgb(75, 156, 132);
 }
 
 header .menu {
   clear: both;
   max-height: 0;
   transition: max-height .2s ease-out;
+  margin-right: 80px;
 }
 header .menu-icon {
   cursor: pointer;
@@ -90,24 +90,14 @@ header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
   top: 0;
 }
 
-/* 150px is the size of the connection to metamask button */
 .logo {
-  margin-left: calc(var(--hamburger-menu-width) + var(--hamburger-menu-padding)*2 + 150px);
   padding: 10px 0;
   width: 30px;
+  position: absolute;
+  left: 50px;
 }
-/* .shadow-filter {
-  -webkit-filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.5));
-  filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.5));
-} */
-
 /* @media (min-width: 54em) { */
-@media (min-width: 960px) {
-  .logo {
-    position: absolute;
-    margin-left: calc(var(--hamburger-menu-width) + var(--hamburger-menu-padding)*2);
-    left: 30px;
-  }
+@media (min-width: 460px) {
   header li {
     float: left;
   }
@@ -115,7 +105,7 @@ header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
     padding: 20px 20px;
   }
   header ul {
-    background: #234647;
+    background: transparent;
   }
   header .menu {
     clear: none;

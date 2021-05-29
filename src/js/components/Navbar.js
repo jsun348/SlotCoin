@@ -30,10 +30,10 @@ const Navbar = () => {
       <input className="menu-btn" type="checkbox" id="menu-btn" />
       <label className="menu-icon" htmlFor="menu-btn"><span className="navicon"></span></label>
       <ul className="menu">
-        <li>Random</li>
-        <li>Something</li>
-        <li>Hello</li>
-        <li>World</li>
+        <li><a href="#app-intro">Home</a></li>
+        <li><a href="#swap-token">Buy</a></li>            
+        <li><a href="#cards-section">About</a></li>
+        <li><a href="#">Tokenomics</a></li>
       </ul>
     </header>
   );

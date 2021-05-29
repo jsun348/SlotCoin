@@ -1,5 +1,13 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  background: #1f232b; 
+  background: #1f232b;
+}
+
+p, a {
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* Styling For Price Info */

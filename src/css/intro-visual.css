@@ -9,17 +9,60 @@
   background: linear-gradient(#1f232b, #161623)
 }
 
+#jackpot {
+  width: 80%;
+  height: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 20px;
+  transform: translateY(-50px);
+  border: 1px solid #93e6cd;
+  border-radius: 10px;
+}
+#jackpot > p {
+  margin-left: 20px;
+}
+
+.coin-stack {
+  position: relative;
+  height: 100%;
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+}
+.coin-stack--coins {
+  position: absolute;
+  width: 40px;
+  height: auto;
+  left: 50%;
+}
+#coin1 {
+  transform: translateY(40px) translateX(-50%);
+}
+#coin2 {
+  transform: translateY(35px) translateX(-53%);
+}
+#coin3 {
+  transform: translateY(30px) translateX(-48%);
+}
+#coin4 {
+  transform: translateY(25px) translateX(-50%);
+}
+
 #app-intro--main-text {
   height: 100%;
   width: 40%;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   justify-content: center;
   color: #eee;
+  padding: 0 50px;
 }
 #app-intro--main-text > h1 {
-  font-size: 3em
+  font-size: 3em;
+  margin: 15px 0;
 }
 #app-intro--main-text > p {
   font-size: 1.2em
@@ -106,4 +149,25 @@
   top: 16%;
   animation: main-ball-expanding 5s;
   animation-iteration-count: infinite;
+}
+
+#price-chart-button {
+  background-color: rgb(75, 156, 132);
+  height: 40px;
+  width: 100px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin: 15px 0;
+  transition: 0.2s;
+}
+#price-chart-button p {
+  font-family: Arial, sans-serif;
+}
+#price-chart-button:hover {
+  background-color: #93e6cd;
+  color: #444;
+  transform: scale(1.03);
 }
