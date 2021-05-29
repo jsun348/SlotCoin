@@ -1,0 +1,55 @@
+#swap-token {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* background-color: #2a2c4f; */
+  background: linear-gradient(#161623, #1f232b)
+}
+#swap-token--visual {
+  position: relative;
+  height: 300px;
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.flip-coin {
+  position: absolute;
+  transform: scale(0.6);
+}
+#flip-coin-1 {
+  bottom: 0;
+  left: 3%;
+}
+#flip-coin-2 {
+  bottom: 30%;
+  left: 18%;
+}
+#flip-coin-3 {
+  bottom: 55%;
+  left: 46%;
+}
+#flip-coin-4 {
+  bottom: 30%;
+  right: 20%;
+}
+#flip-coin-5 {
+  bottom: 0;
+  right: 3%;
+}
+
+#swap-token--text {
+  width: 45%;
+  position: absolute;
+  bottom: 0;
+  font-size: 3em;
+  font-weight: bold;
+  text-align: center;
+  color: #eee;
+}

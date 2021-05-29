@@ -1,3 +1,30 @@
+#app-intro {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  background: linear-gradient(#1f232b, #161623)
+}
+
+#app-intro--main-text {
+  height: 100%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #eee;
+}
+#app-intro--main-text > h1 {
+  font-size: 3em
+}
+#app-intro--main-text > p {
+  font-size: 1.2em
+}
+
 #app-intro--visual-container {
   position: relative;
   width: 60%;
@@ -48,10 +75,10 @@
 }
 #floating-tokens {
   position: absolute;
-  width: 66%;
+  width: 67%;
   height: auto;
-  top: 7%;
-  left: 19.5%;
+  top: 4%;
+  left: 19%;
   animation: tokens-floating 5s;
   animation-iteration-count: infinite;
 }
@@ -68,8 +95,8 @@
   position: absolute;
   height: auto;
   width: 15%;
-  left: 45.65%;
-  top: 18.5%;
+  left: 45.6%;
+  top: 17.5%;
 }
 #floating-main-ball {
   position: absolute;

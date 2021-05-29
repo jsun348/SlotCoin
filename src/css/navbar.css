@@ -1,0 +1,128 @@
+:root {
+  --header-size: 60px;
+}
+
+header {
+  /* position: relative; */
+  position: sticky;
+  top: 0;
+  height: var(--header-size);
+  /* background: #234647; */
+  /* background: #1f232b; */
+  background: transparent;
+  /* box-shadow: 0px 8px 10px 0 rgba(0,0,0,.4); */
+  z-index: 10;
+  color: #ddd;
+}
+header ul {
+  list-style: none;
+  overflow: hidden;
+  background-color: #4b969c;
+  opacity: 0.97;
+}
+header li a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+header li a:hover,
+header .menu-btn:hover {
+  background-color: #326569;
+}
+
+header .menu {
+  clear: both;
+  max-height: 0;
+  transition: max-height .2s ease-out;
+}
+header .menu-icon {
+  cursor: pointer;
+  display: inline-block;
+  float: right;
+  padding: 28px var(--hamburger-menu-padding);
+  position: relative;
+  user-select: none;
+}
+header .menu-icon .navicon {
+  background: #ddd;
+  display: block;
+  height: 2px;
+  position: relative;
+  transition: background .2s ease-out;
+  width: var(--hamburger-menu-width);
+}
+
+header .menu-icon .navicon:before,
+header .menu-icon .navicon:after {
+  background: #ddd;
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all .2s ease-out;
+  width: 100%;
+}
+header .menu-icon .navicon:before {
+  top: 5px;
+}
+header .menu-icon .navicon:after {
+  top: -5px;
+}
+header .menu-btn {
+  display: none;
+}
+
+
+header .menu-btn:checked ~ .menu {
+  max-height: 240px;
+}
+header .menu-btn:checked ~ .menu-icon .navicon {
+  background: transparent;
+}
+header .menu-btn:checked ~ .menu-icon .navicon:before {
+  transform: rotate(-45deg);
+}
+header .menu-btn:checked ~ .menu-icon .navicon:after {
+  transform: rotate(45deg);
+}
+header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+  top: 0;
+}
+
+/* 150px is the size of the connection to metamask button */
+.logo {
+  margin-left: calc(var(--hamburger-menu-width) + var(--hamburger-menu-padding)*2 + 150px);
+  padding: 10px 0;
+  width: 30px;
+}
+/* .shadow-filter {
+  -webkit-filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.5));
+  filter: drop-shadow(0px 0px 5px rgba(255, 255, 255, 0.5));
+} */
+
+/* @media (min-width: 54em) { */
+@media (min-width: 960px) {
+  .logo {
+    position: absolute;
+    margin-left: calc(var(--hamburger-menu-width) + var(--hamburger-menu-padding)*2);
+    left: 30px;
+  }
+  header li {
+    float: left;
+  }
+  header li a {
+    padding: 20px 20px;
+  }
+  header ul {
+    background: #234647;
+  }
+  header .menu {
+    clear: none;
+    float: right;
+    max-height: none;
+  }
+  header .menu-icon {
+    display: none;
+  }
+}
